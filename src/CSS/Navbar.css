@@ -1,0 +1,12 @@
+body
+{
+    background-color: white;
+}
+.navbar
+{
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    opacity: .5;
+    color: blue;
+}

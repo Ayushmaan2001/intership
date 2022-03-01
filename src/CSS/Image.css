@@ -1,0 +1,10 @@
+.card-img-top {
+  position: relative;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: inline;
+  max-width: 13rem;
+  height: 10rem;
+  object-fit: fill;
+  padding: 0.05rem;
+}

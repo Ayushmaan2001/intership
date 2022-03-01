@@ -1,0 +1,20 @@
+.d-block{
+    margin-left: auto;
+    margin-right: auto;
+    height: 60rem;
+    width: 60rem;
+}
+.slide
+{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width:fit-content;
+}
+.carousel-control-prev
+{
+    max-height: auto;
+}
+.carousel-control-next{
+    max-height: auto;
+}
