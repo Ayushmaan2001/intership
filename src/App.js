@@ -6,6 +6,8 @@ import Image from "./JSX/Image";
 import Wildlife from "./JSX/Wildlife";
 import './JSX/space'
 import Space from "./JSX/space";
+import {Routes,Route,Router} from 'react-router-dom'
+import Sample from "./Sample";
 
 function App() {
   return (
@@ -35,6 +37,10 @@ function App() {
       </div>
 
       <div className="sample">s</div>
+      {/* <Routes>
+        <Route path="sample" element={<Sample/>}/>
+      </Routes>
+      <a href="/sample">About</a> */}
     </>
   );
 }

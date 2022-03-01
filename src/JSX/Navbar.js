@@ -3,7 +3,7 @@ import "../CSS/Navbar.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar ticky-top navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           {/* image */}
           <button
@@ -31,12 +31,12 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#home">
-                  Contact Us
+                  Gallery
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#home">
-                  Gallery
+                  Contact Us
                 </a>
               </li>
             </ul>

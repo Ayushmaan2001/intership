@@ -32,7 +32,7 @@ function Image() {
               <img
                 className="card-img-top"
                 src={value.image}
-                alt="Card image cap"
+                alt="Card"
               />
           );
         })}

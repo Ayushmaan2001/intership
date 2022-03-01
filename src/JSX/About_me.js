@@ -4,7 +4,14 @@ function AboutUs() {
     return (
       <>
         <div className="text-center">About</div>
-        <img src={require("../image/DP.jpg")} className="img-fluid" alt="img" />
+        <span class="title-divider"></span>
+        <div>
+          <img
+            src={require("../image/DP.jpg")}
+            className="img-fluid"
+            alt="img"
+          />
+        </div>
       </>
     );
 }
