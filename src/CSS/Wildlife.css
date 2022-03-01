@@ -11,10 +11,7 @@
     margin-right: auto !important;
     max-width:fit-content;
 }
-.carousel-control-prev
-{
-    max-height: auto;
-}
-.carousel-control-next{
-    max-height: auto;
+.carousel-inner{
+    width: 80rem;
+    height: 50rem;
 }

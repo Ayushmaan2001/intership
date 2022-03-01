@@ -10,21 +10,28 @@ function Wildlife() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src={require("../image/p1.jpg")}
+              src={require("../image/Wildlife/1.jpg")}
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src={require("../image/w2.jpg")}
+              src={require("../image/Wildlife/2.jpg")}
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src={require("../image/w3.jpg")}
+              src={require("../image/Wildlife/3.jpg")}
+              className="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={require("../image/Wildlife/4.jpg")}
               className="d-block w-100"
               alt="..."
             />
