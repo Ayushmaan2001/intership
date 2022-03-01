@@ -6,8 +6,8 @@ import Image from "./JSX/Image";
 import Wildlife from "./JSX/Wildlife";
 import './JSX/space'
 import Space from "./JSX/space";
-import {Routes,Route,Router} from 'react-router-dom'
-import Sample from "./Sample";
+// import {Routes,Route,Router} from 'react-router-dom'
+// import Sample from "./Sample";
 
 function App() {
   return (
