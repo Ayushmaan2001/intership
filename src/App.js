@@ -6,6 +6,7 @@ import Image from "./JSX/Image";
 import Wildlife from "./JSX/Wildlife";
 import './JSX/space'
 import Space from "./JSX/space";
+import Footer from "./JSX/Footer";
 // import {Routes,Route,Router} from 'react-router-dom'
 // import Sample from "./Sample";
 
@@ -23,7 +24,7 @@ function App() {
           <AboutMeContent />
         </div>
         <div className="text-center">
-          Kashmir
+          Nature
         </div>
         <Image />
         <div className="text-center">
@@ -31,7 +32,7 @@ function App() {
         </div>
         <Wildlife/>
         <div className="text-center">
-          Space/Stars
+          Stars
         </div>
         <Space/>
       </div>
@@ -41,6 +42,7 @@ function App() {
         <Route path="sample" element={<Sample/>}/>
       </Routes>
       <a href="/sample">About</a> */}
+      <Footer/>
     </>
   );
 }
