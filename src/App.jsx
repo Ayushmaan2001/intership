@@ -7,9 +7,7 @@ import Wildlife from "./JSX/Wildlife";
 import "./JSX/space";
 import Space from "./JSX/space";
 import Footer from "./JSX/Footer";
-import { Routes, Route, Router } from "react-router-dom";
-import Sample from "./Sample";
-// import { Switch } from "react-router";
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
