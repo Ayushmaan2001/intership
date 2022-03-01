@@ -50,14 +50,9 @@ const image_arr = [
 function Space() {
   return (
     <>
+      <div className="text-center">STARS</div>
       {image_arr.map((value, index) => {
-        return (
-          <img
-            className="card-img-top"
-            src={value.image}
-            alt="Card"
-          />
-        );
+        return <img className="card-img-top" src={value.image} alt="Card" />;
       })}
     </>
   );

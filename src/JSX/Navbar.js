@@ -20,12 +20,12 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="justify-content-end navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <a className="nav-link active" aria-current="page" href="/" >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <a className="nav-link active" aria-current="page" href="/Sample">
                   About
                 </a>
               </li>

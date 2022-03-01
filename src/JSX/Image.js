@@ -66,6 +66,7 @@ const image_arr = [
 function Image() {
   return (
     <>
+    <div className="text-center">NATURE</div>
         {image_arr.map((value, index) => {
           return (
               <img

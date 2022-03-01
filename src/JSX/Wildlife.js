@@ -2,6 +2,7 @@ import "../CSS/Wildlife.css";
 function Wildlife() {
   return (
     <>
+      <div className="text-center">WILDLIFE</div>
       <div
         id="carouselExampleControls"
         className="carousel slide"
