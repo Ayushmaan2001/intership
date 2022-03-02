@@ -11,7 +11,7 @@ const image_arr = [
   },
 ];
 
-function Wildlife_Main() {
+function WildlifeMain() {
     return (
       <>
         <div className="container Wildlife-Main">
@@ -30,4 +30,4 @@ function Wildlife_Main() {
     );
 }
 
-export default Wildlife_Main;
+export default WildlifeMain;

@@ -62,7 +62,7 @@ const image_arr = [
   //   },
 ];
 
-function Nature_Main() {
+function NatureMain() {
   return (
     <>
       <div className="container Nature-Main">
@@ -81,4 +81,4 @@ function Nature_Main() {
   );
 }
 
-export default Nature_Main;
+export default NatureMain;

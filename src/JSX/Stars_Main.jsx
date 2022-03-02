@@ -47,7 +47,7 @@ const image_arr = [
 //   },
 ];
 
-function Stars_Main() {
+function StarsMain() {
     return (
       <>
         <div className="container Stars-Main">
@@ -66,4 +66,4 @@ function Stars_Main() {
     );
 }
 
-export default Stars_Main;
+export default StarsMain;
