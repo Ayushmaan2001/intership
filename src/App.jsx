@@ -21,11 +21,11 @@ function App() {
         <div className="content">
           <div>
             <Routes>
-              <Route path="/sample" element={<AboutUs />}></Route>
+              <Route path="/about" element={<AboutUs />}></Route>
             </Routes>
           </div>
           <Routes>
-            <Route path="/sample" element={<AboutMeContent />}></Route>
+            <Route path="/about" element={<AboutMeContent />}></Route>
           </Routes>
         </div>
         <Routes>
