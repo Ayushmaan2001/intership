@@ -7,8 +7,8 @@ import Wildlife from "./JSX/Wildlife";
 import "./JSX/space";
 import Space from "./JSX/space";
 import Footer from "./JSX/Footer";
-import {Routes, Route} from "react-router-dom";
-import Sample from "./Sample";
+import { Routes, Route } from "react-router-dom";
+import ContactUs from "./JSX/ContactUs";
 import NatureMain from "./JSX/Nature_Main";
 import WildlifeMain from "./JSX/Wildlife_Main";
 import StarsMain from "./JSX/Stars_Main";
@@ -37,14 +37,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Space />}></Route>
         </Routes>
+        <Routes>
+          <Route path="/contact_us" element={<ContactUs />}></Route>
+          <Route path="/Nature_Main" element={<NatureMain />}></Route>
+          <Route path="/Wildlife_Main" element={<WildlifeMain />}></Route>
+          <Route path="/Stars_Main" element={<StarsMain />}></Route>
+        </Routes>
       </div>
-      <Routes>
-        <Route path="/contact_us" element={<Sample />}></Route>
-        <Route path="/Nature_Main" element={<NatureMain />}></Route>
-        <Route path="/Wildlife_Main" element={<WildlifeMain />}></Route>
-        <Route path="/Stars_Main" element={<StarsMain />}></Route>
-      </Routes>
-      <Footer />
+      <div id="footer">
+        <Footer />
+      </div>
     </>
   );
 }

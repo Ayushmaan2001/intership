@@ -10,40 +10,19 @@ const image_arr = [
     image: require("../image/Space/s3.jpg"),
   },
   {
-    image: require("../image/Space/s4.jpg"),
+    image: require("../image/Space/s10.jpg"),
   },
   {
     image: require("../image/Space/s5.jpg"),
   },
   {
-    image: require("../image/Space/s6.jpg"),
-  },
-  {
-    image: require("../image/Space/s7.jpg"),
-  },
-  {
-    image: require("../image/Space/s8.jpg"),
-  },
-  {
-    image: require("../image/Space/s9.jpg"),
-  },
-  {
-    image: require("../image/Space/s10.jpg"),
-  },
-  {
-    image: require("../image/Space/s11.jpg"),
-  },
-  {
-    image: require("../image/Space/s12.jpg"),
-  },
-  {
-    image: require("../image/Space/s13.jpg"),
-  },
-  {
-    image: require("../image/Space/s14.jpg"),
+    image: require("../image/Space/s16.jpg"),
   },
   {
     image: require("../image/Space/s15.jpg"),
+  },
+  {
+    image: require("../image/Space/s17.jpg"),
   },
 ];
 
