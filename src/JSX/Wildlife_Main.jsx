@@ -56,6 +56,8 @@ const image_arr = [
 function WildlifeMain() {
   return (
     <>
+      <div className="text-center">WILDLIFE</div>
+      <span class="title-divider"></span>
       <div className="container Wildlife-Main">
         {image_arr.map((val, key) => {
           return (

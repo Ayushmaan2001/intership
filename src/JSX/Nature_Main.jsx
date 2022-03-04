@@ -80,6 +80,8 @@ const image_arr = [
 function NatureMain() {
   return (
     <>
+      <div className="text-center">NATURE</div>
+      <span class="title-divider"></span>
       <div className="container Nature-Main">
         {image_arr.map((val, key) => {
           return (

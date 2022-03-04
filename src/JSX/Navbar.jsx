@@ -5,7 +5,6 @@ function Navbar() {
     <>
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          {/* image */}
           <button
             className="navbar-toggler"
             type="button"

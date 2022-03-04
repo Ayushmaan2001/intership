@@ -56,6 +56,8 @@ const image_arr = [
 function StarsMain() {
     return (
       <>
+        <div className="text-center">STARS</div>
+        <span class="title-divider"></span>
         <div className="container Stars-Main">
           {image_arr.map((val, key) => {
             return (
